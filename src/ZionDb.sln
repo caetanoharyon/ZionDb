@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZionDb", "ZionDb\ZionDb.csproj", "{722CD0D4-0AE4-4B4A-84A0-5A2DECD42145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZionDb.Tests.Unit", "ZionDb.Tests.Unit\ZionDb.Tests.Unit.csproj", "{706D5604-3B97-456A-8F52-0D31CFA73740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{722CD0D4-0AE4-4B4A-84A0-5A2DECD42145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{722CD0D4-0AE4-4B4A-84A0-5A2DECD42145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{722CD0D4-0AE4-4B4A-84A0-5A2DECD42145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{722CD0D4-0AE4-4B4A-84A0-5A2DECD42145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706D5604-3B97-456A-8F52-0D31CFA73740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706D5604-3B97-456A-8F52-0D31CFA73740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706D5604-3B97-456A-8F52-0D31CFA73740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706D5604-3B97-456A-8F52-0D31CFA73740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31F35913-0E06-4C89-A30D-EFB947909284}
+	EndGlobalSection
+EndGlobal
