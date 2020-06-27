@@ -8,7 +8,7 @@ namespace ZionDb.Tests.Unit
         [Fact]
         public void Should_get_value_by_key()
         {
-            var sut = new ZionDbContext();
+            var sut = new ZionDbMemoryContext();
             const string key = "a key";
             var valueExpected = new ComplexObjectMock { StringProperty = "a test" };
             sut.Set(key, valueExpected);
